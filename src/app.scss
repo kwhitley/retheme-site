@@ -1,0 +1,159 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+:root {
+  --background-color: #fff;
+  --foreground-color: #222;
+  --accent-color: #f0c;
+
+  @media (prefers-color-scheme: dark) {
+    --background-color: #111;
+    --foreground-color: #fff;
+  }
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	// font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+// BEGIN APP STYLES
+
+body {
+  --padding: 4em;
+  background-color: var(--background-color);
+  color: var(--foreground-color);
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Sans-Serif;
+  min-height: calc(100vh - 2 * var(--padding));
+  padding: var(--padding) 0;
+}
+
+#app {
+  max-width: 80rem;
+  display: flex;
+  flex: 1;
+  flex-flow: row;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font: inherit;
+
+  &:not(:last-child) {
+    margin-bottom: 0.3em;
+  }
+
+  &:not(:first-child) {
+    margin-top: 1em;
+  }
+}
+
+h1, h2 {
+  font-size: 1.4em;
+  letter-spacing: -0.02em;
+  &:not(:last-child) {
+    padding-bottom: 0.2em;
+  }
+}
+
+a {
+  color: var(--accent-color);
+  transition: transform 0.1s ease, color 0.15s ease;
+  text-decoration: none;
+
+  &.active {
+    text-decoration: underline;
+  }
+
+  &:hover {
+    color: var(--accent-color);
+    text-decoration: underline;
+    transform: scale(1.1);
+  }
+}
+
+p, ul, ol {
+  margin: 0 0.5em 0 0;
+  line-height: 1.6em;
+  font-weight: lighter;
+  opacity: 0.9;
+}
+
+p, ul, ol, blockquote {
+ &:not(:last-child) {
+    margin-bottom: 1.6rem;
+  }
+}
+
+ul, ol {
+  padding-left: 1.8em;
+  padding-bottom: 1em;
+}
+
+li {
+  line-height: 1.4em;
+  font-weight: normal;
+
+  &:not(:last-child) {
+    margin-bottom: 0.5em;
+  }
+}
+
+blockquote {
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: -0.04em;
+  font-weight: 200;
+  font-size: 1.7em;
+  font-style: italic;
+  line-height: 1.3em;
+  border-left: 0.35rem solid #ccc;
+  padding: 0.2em 1em 0.2em 1em;
+
+  font-weight: lighter;
+  letter-spacing: -0.01em;
+}
+
+blockquote:before {
+  font-family: serif;
+  content: open-quote;
+  opacity: 0.5;
+  font-size: 2em;
+  line-height: 0.1em;
+  margin-right: 0.15em;
+  vertical-align: -0.4em;
+  margin-left: -0.1em;
+}
+
+blockquote:after {
+  content: no-close-quote;
+}
