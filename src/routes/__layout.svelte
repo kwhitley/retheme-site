@@ -5,6 +5,10 @@
   import '../app.scss'
 </script>
 
+<svelte:head>
+  <link rel="icon" type="image/svg" href="/favicon.png" />
+</svelte:head>
+
 <style lang="scss">
   main {
     --padding: 5em;
