@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 :root {
   --background-color: #fff;
   --foreground-color: #222;
@@ -31,7 +26,6 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	// font: inherit;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -90,15 +84,8 @@ a {
   color: var(--foreground-color);
   transition: transform 0.1s ease, color 0.15s ease;
   text-decoration: underline;
-
-  &.active {
-    text-decoration: underline;
-  }
-
-  &:hover {
-    text-decoration: underline;
-    transform: scale(1.1);
-  }
+  position: relative;
+  display: inline-block;
 }
 
 p, ul, ol {

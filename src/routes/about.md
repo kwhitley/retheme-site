@@ -2,6 +2,4 @@
   <title>Kevin R. Whitley - About</title>
 </svelte:head>
 
-<p>
-  Bio here...
-</p>
+Super cool markdown bio here...

@@ -17,17 +17,6 @@
     white-space: nowrap;
   }
 
-  :global a {
-    position: relative;
-    display: inline-block;
-    text-decoration: none;
-
-    &:hover {
-      text-decoration: underline;
-      transform: scale(1.05);
-    }
-  }
-
   u {
     text-decoration: none;
     // overflow: hidden;

@@ -11,6 +11,10 @@
 <style lang="scss">
   a {
     color: var(--accent-color);
+
+    &:hover {
+      transform: scale(1.03);
+    }
   }
 </style>
 
