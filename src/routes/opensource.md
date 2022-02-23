@@ -2,16 +2,6 @@
   <title>Kevin R. Whitley - Open Source</title>
 </svelte:head>
 
-<style lang="scss">
-  ul {
-    font-size: 0.95em;
-
-    li:not(:last-child) {
-      margin-bottom: 2em;
-    }
-  }
-</style>
-
 I strongly believe in innovation through collaboration; that more eyes/feedback on a thing makes it better than the close-sourced equivalent; that we should be leading
 through obsession and passion, rather than through defending progress with secrets.
 
