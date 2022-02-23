@@ -1,5 +1,5 @@
 {
-  "name": "sveltekit",
+  "name": "sk-portfolio",
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
@@ -22,8 +22,5 @@
     "svelte": "^3.44.0",
     "svelte-preprocess": "^4.10.3"
   },
-  "type": "module",
-  "dependencies": {
-    "supergeneric": "^2.1.0"
-  }
+  "type": "module"
 }
