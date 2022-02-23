@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Kevin R. Whitley - Code</title>
+</svelte:head>
+
 <p>
   So, what do I mean by "elegant code"?
 </p>

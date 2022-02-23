@@ -32,6 +32,7 @@
 
   main {
     text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
   }
 </style>
 

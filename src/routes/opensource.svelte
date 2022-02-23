@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Kevin R. Whitley - Open Source</title>
+</svelte:head>
+
 <style lang="scss">
   ul {
     font-size: 0.95em;
@@ -7,10 +11,6 @@
     }
   }
 </style>
-
-<p>
-  Let's get this out there... I am a <em>huge</em> open-source advocate.
-</p>
 
 <p>
   I strongly believe in innovation through collaboration; that more eyes/feedback on a thing makes it better than the close-sourced equivalent; that we should be leading

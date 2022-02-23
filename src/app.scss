@@ -87,16 +87,15 @@ h1, h2 {
 }
 
 a {
-  color: var(--accent-color);
+  color: var(--foreground-color);
   transition: transform 0.1s ease, color 0.15s ease;
-  text-decoration: none;
+  text-decoration: underline;
 
   &.active {
     text-decoration: underline;
   }
 
   &:hover {
-    color: var(--accent-color);
     text-decoration: underline;
     transform: scale(1.1);
   }

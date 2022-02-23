@@ -7,6 +7,10 @@
 
 <svelte:head>
   <link rel="icon" type="image/svg" href="/favicon.png" />
+  <title>Kevin R. Whitley</title>
+  <meta name="description" content="The personal bio of open source author Kevin R. Whitley." />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <html lang="en" />
 </svelte:head>
 
 <style lang="scss">
