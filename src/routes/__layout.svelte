@@ -49,7 +49,7 @@
 <main>
   <Title />
 
-  <section>
+  <section class="content">
     <slot />
   </section>
 
