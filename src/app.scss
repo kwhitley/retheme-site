@@ -117,16 +117,17 @@ li {
 
 blockquote {
   font-family: 'Times New Roman', Times, serif;
-  letter-spacing: -0.04em;
-  font-weight: 200;
+  letter-spacing: -0.01em;
   font-size: 1.7em;
   font-style: italic;
+  font-weight: lighter;
   line-height: 1.3em;
   border-left: 0.35rem solid #ccc;
   padding: 0.2em 1em 0.2em 1em;
 
-  font-weight: lighter;
-  letter-spacing: -0.01em;
+  > p:first-child {
+    display: inline-block;
+  }
 }
 
 blockquote:before {
