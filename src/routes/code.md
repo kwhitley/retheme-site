@@ -21,4 +21,3 @@ Much like a school paper or company memo, less is typically more.  No one *reall
 As an open-source developer, I write libs to make downstream code lightweight, readable, and *obvious*.  As a mentor and technical
 advisor, I guide along this path as well!  To this point, I measure code success (of my own or others), not just on the technical merits of achieving the task,
 but also on the abilty for someone else to jump in and understand the intention/execution!
-
