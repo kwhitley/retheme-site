@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Kevin R. Whitley - Code</title>
+  <title>Code Standards - Kevin R. Whitley</title>
 </svelte:head>
 
 I believe code should be self-documenting and human-readable.  Types and enforcement/rules are great and all, but the bottom line is,

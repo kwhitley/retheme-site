@@ -33,7 +33,6 @@
   h1 {
     // font-family: Arial Narrow, sans-serif;
     // letter-spacing: -0.04em;
-    font-family: 'Roboto Condensed', sans-serif;
     font-size: clamp(2rem, 5vmax, 6rem);
     text-align: left;
     // white-space: nowrap;

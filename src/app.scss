@@ -73,6 +73,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1, h2 {
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.4em;
   letter-spacing: -0.02em;
   &:not(:last-child) {
@@ -90,7 +91,7 @@ a {
 
 p, ul, ol {
   margin: 0 0.5em 0 0;
-  line-height: 1.6em;
+  line-height: 1.5em;
   font-weight: lighter;
   opacity: 0.9;
 }
@@ -107,11 +108,10 @@ ul, ol {
 }
 
 li {
-  line-height: 1.4em;
   font-weight: normal;
 
   &:not(:last-child) {
-    margin-bottom: 0.5em;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -143,4 +143,11 @@ blockquote:before {
 
 blockquote:after {
   content: no-close-quote;
+}
+
+hr {
+  border: none;
+  border-bottom: 1px solid var(--foreground-color);
+  opacity: 0.2;
+  margin: 2em 0;
 }
