@@ -1,8 +1,14 @@
 <script>
   import Header from '~/layout/Header.svelte'
-  import Title from '~/layout/Title.svelte'
+  import Title from '~/layout/NewTitle.svelte'
   import SocialLinks from '~/layout/SocialLinks.svelte'
+  import Transition from '~/layout/Transition.svelte'
+  import { page } from '$app/stores'
+  import { fade, fly } from 'svelte/transition'
   import '../app.scss'
+
+  $: key = $page.url.pathname
+  $: console.log({ key })
 </script>
 
 <svelte:head>
@@ -49,9 +55,11 @@
 <main>
   <Title />
 
-  <section class="content">
-    <slot />
-  </section>
+  <Transition refresh={key}>
+    <section>
+      <slot />
+    </section>
+  </Transition>
 
   <SocialLinks />
 </main>

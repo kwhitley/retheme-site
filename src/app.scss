@@ -81,6 +81,10 @@ h1, h2 {
   }
 }
 
+h2 {
+  text-transform: uppercase;
+}
+
 a {
   color: var(--foreground-color);
   transition: transform 0.1s ease, color 0.15s ease;

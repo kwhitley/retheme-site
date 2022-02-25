@@ -2,4 +2,4 @@
   <title>Kevin R. Whitley - About</title>
 </svelte:head>
 
-Super cool markdown bio here...
+I'm an artist, a developer, a creator, and I want to build a better world.
