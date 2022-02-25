@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Kevin R. Whitley - About</title>
+  <title>About - Kevin R. Whitley</title>
 </svelte:head>
 
 I'm an artist, a developer, a creator...

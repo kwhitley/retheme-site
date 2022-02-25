@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Teams - Kevin R. Whitley</title>
+</svelte:head>
+
 I believe that a strong, egoless, and excited engineering culture is a key factor in delivering amazing ideas/products.  Let me explain:
 
 When engineers are allowed to "play" for a living, given proper challenges, learning opportunities, autonomy/ownership, etc., they tend to come up

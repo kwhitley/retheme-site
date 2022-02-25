@@ -1,5 +1,5 @@
 <svelte:head>
-  <title>Vision Creation - Kevin R. Whitley</title>
+  <title>Vision - Kevin R. Whitley</title>
 </svelte:head>
 
 One thing I absolutely love is turning napkin sketches and ideas into technical reality.

@@ -1,3 +1,7 @@
+<svelte:head>
+  <title>Automation - Kevin R. Whitley</title>
+</svelte:head>
+
 I'll confess - I'm lazy.  Or rather... I *really* don't like to waste my own time (which is my most precious resource), and I assume others don't as well.
 
 To this end, I've always had an obsession with process optimization/efficiency (balanced with ROI).  At Chevron, I transformed a fully-manual intranet migration path to fully-automatic, allowing us to turn months of labor into seconds, at enormous savings to our internal clients, and the company at large.
