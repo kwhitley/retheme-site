@@ -43,16 +43,16 @@
     <h1 class:active={!!active}>My name is <Link href="/about">Kevin Whitley</Link> and I:</h1>
 
     <h2 class:active={$page.url.pathname.includes('/vision')}>
-      <Link href="/vision">transform vision into reality</Link>
+      <Link href="/vision">turn vision into reality</Link>
     </h2>
     <h2 class:active={$page.url.pathname.includes('/empathy') || $page.url.pathname.includes('/opensource')}>
       <Link href="/opensource">build for everyone</Link>
     </h2>
     <h2 class:active={$page.url.pathname.includes('/culture')}>
-      <Link href="/culture">foster engineering culture</Link>
+      <Link href="/culture">foster engineering</Link>
     </h2>
     <h2 class:active={$page.url.pathname.includes('/automation')}>
-      <Link href="/automation">decrease & automate effort</Link>
+      <Link href="/automation">encourage laziness</Link>
     </h2>
   </div>
 </div>
