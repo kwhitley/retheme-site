@@ -49,7 +49,7 @@
       <Link href="/opensource">build for everyone</Link>
     </h2>
     <h2 class:active={$page.url.pathname.includes('/culture')}>
-      <Link href="/culture">foster engineering</Link>
+      <Link href="/culture">foster teams</Link>
     </h2>
     <h2 class:active={$page.url.pathname.includes('/automation')}>
       <Link href="/automation">encourage laziness</Link>
