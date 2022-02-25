@@ -18,15 +18,17 @@
   .inner h2 {
     font-size: clamp(1.6rem, 3vmax, 2.5rem);
     margin: 0 0 0.4em 1em;
-    margin-left: 0;
     transition: opacity 0.3s ease;
     white-space: normal;
     opacity: 0.3;
+    position: relative;
 
     &:before {
-      content: '> ';
+      content: '>';
+      position: absolute;
       white-space: nowrap;
       vertical-align: top;
+      right: calc(100% + 0.5em);
     }
 
 
