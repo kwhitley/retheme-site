@@ -5,8 +5,8 @@
 
 {#key refresh}
   <div
-    in:fly="{{ x: -500, duration: 250, delay: 250 }}"
-    out:fly="{{ y: 500, duration: 250 }}"
+    in:fly="{{ x: -500, duration: 100, delay: 300 }}"
+    out:fly="{{ y: 500, duration: 300 }}"
     >
     <slot/>
   </div>
