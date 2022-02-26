@@ -36,7 +36,7 @@
     }
 
     section {
-      padding: 3em 0 3em;
+      padding: 2em 0 3em;
       height: auto;
       overflow: hidden;
       display: block;
