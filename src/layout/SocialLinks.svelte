@@ -44,7 +44,7 @@
     <a href="https://github.com/kwhitley">github</a>
     <a href="https://www.npmjs.com/~krwhitley">npm</a>
     <a href="https://www.linkedin.com/in/kevinrwhitley/">linkedin</a>
-    <!-- <a href="https://slick.af/kevin">slick</a> -->
+    <a href="https://slick.af/kevin">slick</a>
   </section>
 </main>
 

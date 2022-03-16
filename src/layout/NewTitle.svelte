@@ -40,19 +40,8 @@
 
 <div class="outer">
   <div class="inner">
-    <h1 class:active={!!active}>My name is <Link href="/about">Kevin Whitley</Link> and I:</h1>
-
-    <h2 class:active={$page.url.pathname.includes('/vision')}>
-      <Link href="/vision">turn vision into reality</Link>
-    </h2>
-    <h2 class:active={$page.url.pathname.includes('/empathy') || $page.url.pathname.includes('/opensource')}>
-      <Link href="/opensource">build for everyone</Link>
-    </h2>
-    <h2 class:active={$page.url.pathname.includes('/culture')}>
-      <Link href="/culture">foster teams</Link>
-    </h2>
-    <h2 class:active={$page.url.pathname.includes('/automation')}>
-      <Link href="/automation">encourage laziness</Link>
-    </h2>
+    <h1 class:active={!!active}>My name is <Link href="/about">Kevin Whitley</Link> and I
+      <Link href="/build">build things</Link> for <strike>myself</strike> <Link href="/opensource">everyone</Link>.
+    </h1>
   </div>
 </div>
