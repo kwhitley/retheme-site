@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
   font: inherit;
 
   &:not(:last-child) {
-    margin-bottom: 0.3em;
+    margin-bottom: 0.6em;
   }
 
   &:not(:first-child) {
@@ -76,13 +76,11 @@ h1, h2 {
   font-family: 'Roboto Condensed', sans-serif;
   font-size: 1.4em;
   letter-spacing: -0.02em;
-  &:not(:last-child) {
-    padding-bottom: 0.2em;
-  }
 }
 
 h2 {
   text-transform: uppercase;
+  padding-bottom: 0.5em;
 }
 
 a {

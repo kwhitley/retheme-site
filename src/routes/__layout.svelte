@@ -13,8 +13,8 @@
 
 <svelte:head>
   <link rel="icon" type="image/svg" href="/favicon.png" />
-  <title>Kevin R. Whitley</title>
-  <meta name="description" content="The personal bio of open source author Kevin R. Whitley." />
+  <title>Retheme.org - your window to a better internet</title>
+  <meta name="description" content="Retheme.org has one goal: restyle the internet to be consumer-friendly, rather than ad-friendly." />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
   <html lang="en" />
 </svelte:head>

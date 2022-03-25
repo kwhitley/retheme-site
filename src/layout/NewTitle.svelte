@@ -8,6 +8,7 @@
   h1 {
     font-size: clamp(3rem, 5vmax, 5.5rem);
     text-align: left;
+    color: var(--accent-color);
   }
 
   .outer {
@@ -40,8 +41,8 @@
 
 <div class="outer">
   <div class="inner">
-    <h1 class:active={!!active}>My name is <Link href="/about">Kevin Whitley</Link> and I
-      <Link href="/build">build things</Link> for <strike>myself</strike> <Link href="/opensource">everyone</Link>.
+    <h1>
+      Retheme.org
     </h1>
   </div>
 </div>
