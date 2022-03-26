@@ -87,7 +87,7 @@ h1, h2, h3, h4, h5, h6 {
   font: inherit;
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: -0.02em;
   text-align: left;
@@ -96,14 +96,13 @@ h1, h2 {
 }
 
 h1 {
-  font-size: clamp(4rem, 6vw, 6rem);
+  font-size: clamp(4.3rem, 7vw, 7rem);
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
 h2 {
-  font-size: 1.8em;
-  font-size: clamp(2rem, 3vw, 6rem);
+  font-size: clamp(1.8rem, 5vw, 2.2rem);
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
@@ -124,23 +123,24 @@ p, ul, ol {
 }
 
 p, ul, ol, blockquote {
-  opacity: 0.8;
-
   &:not(:last-child) {
     margin-bottom: 1.6rem;
   }
 }
 
 ul, ol {
-  padding-left: 1.8em;
-  padding-bottom: 1em;
+  padding: 0.5em 1em 1em 2em;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
 }
 
 li {
-  font-weight: normal;
+  font-weight: lighter;
 
   &:not(:last-child) {
-    margin-bottom: 1.5em;
+    margin-bottom: 0.3em;
   }
 }
 

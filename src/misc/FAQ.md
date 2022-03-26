@@ -1,10 +1,6 @@
 <script>
-  import QA from '../misc/QA.svelte'
+  import QA from './QA.svelte'
 </script>
-
-Retheme has only one mission: To create a better experience for consumer internet browsing.
-
-To do this, I "retheme" high-traffic (or any requested) websites that are choked down with ads, popups, paywalls, overlays, etc, etc - removing as much of the mess as I'm able.  Some are more possible to help than others, and sites that do it all in a tasteful or consumer-friendly way (e.g. google.com), I leave alone out of respect.
 
 ## Frequently Asked Questions
 

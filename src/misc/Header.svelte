@@ -1,4 +1,8 @@
 <style lang="scss">
+  header {
+    margin-bottom: 1.2em;
+  }
+
   small {
     display: block;
     letter-spacing: 0em;;

@@ -4,7 +4,7 @@
   }
 
   h2 {
-    font-size: clamp(0.9rem, 1.9vmax, 1.6rem);
+    font-size: clamp(0.9rem, 1.9vw, 1.6rem);
     margin: 1.6em 0.4em 0 0;
     text-transform: uppercase;
     display: inline-block;
@@ -19,7 +19,7 @@
   section {
     display: inline-flex;
     flex-flow: row wrap;
-    font-size: clamp(1.2rem, 2.4vmax, 2.4rem);
+    font-size: clamp(1.3rem, 2.4vw, 2.4rem);
 
     > *:not(:last-child) {
       margin-right: 0.4em;
