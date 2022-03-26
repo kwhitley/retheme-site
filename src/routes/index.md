@@ -28,6 +28,10 @@ To do this, I "retheme" high-traffic (or any requested) websites that are choked
 <QA>How is Retheme different from AdBlock?</QA>
 <QA type="answer">For one thing, Retheme approaches ad-blocking in a custom per-site way that's simply not possible with AdBlock.  Secondly, AdBlock famously allows certain ad companies to still be seen if they pay AdBlock, defeating the entire purpose for users.  I don't do that here.</QA>
 
+<QA>Should I use AdBlock as well?</QA>
+<QA type="answer">Honestly, I recommend using both!  AdBlock blocks (some) of the major ad-campaigns across <em>all</em> sites, while
+Retheme applies very custom themes to <em>specific</em> sites (namely high-traffic news/content sites).  They both have their place!</QA>
+
 <QA>Does it remove paywalls (e.g. news sites)?</QA>
 <QA type="answer">If I can remove them, I do. I believe blocking basic knowledge of world-events behind pay walls is incredibly anti-consumer, and anti-equality.  A less affluent person should not be *forced* to be less educated.</QA>
 

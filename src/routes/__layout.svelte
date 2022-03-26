@@ -1,8 +1,7 @@
 <script>
-  import Header from '~/layout/Header.svelte'
-  import Title from '~/layout/NewTitle.svelte'
-  import SocialLinks from '~/layout/SocialLinks.svelte'
-  import Transition from '~/layout/Transition.svelte'
+  import Header from '~/misc/Header.svelte'
+  import SocialLinks from '~/misc/SocialLinks.svelte'
+  import Transition from '~/misc/Transition.svelte'
   import { page } from '$app/stores'
   import { fade, fly } from 'svelte/transition'
   import '../app.scss'
@@ -53,7 +52,7 @@
 </style>
 
 <main>
-  <Title />
+  <Header />
 
   <Transition refresh={key}>
     <section>
