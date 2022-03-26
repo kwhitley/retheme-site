@@ -5,12 +5,6 @@
 </script>
 
 <style lang="scss">
-  h1 {
-    font-size: clamp(3rem, 5vmax, 5.5rem);
-    text-align: left;
-    color: var(--accent-color);
-  }
-
   .outer {
     display: table;
     text-align: left;
@@ -39,10 +33,4 @@
   }
 </style>
 
-<div class="outer">
-  <div class="inner">
-    <h1>
-      Retheme.org
-    </h1>
-  </div>
-</div>
+<h1>Retheme.org</h1>

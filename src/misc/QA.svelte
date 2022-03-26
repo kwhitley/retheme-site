@@ -2,12 +2,21 @@
   export let type = "question"
 </script>
 
+<!-- MARKUP -->
+<div class={type}>
+  <span>{type}</span>
+  <span>
+    <slot />
+  </span>
+</div>
+
+<!-- STYLES -->
 <style lang="scss">
   div {
     display: flex;
     flex-flow: row wrap;
 
-    &.answer {
+    &.answer:not(:last-child) {
       border-bottom: 1px dotted #ccc;
       padding-bottom: 1em;
       margin: 0.5em 0 1em;
@@ -36,10 +45,3 @@
     font-weight: normal;
   }
 </style>
-
-<div class={type}>
-  <span>{type}</span>
-  <span>
-    <slot />
-  </span>
-</div>
