@@ -76,7 +76,7 @@
     text-align: left;
   } */
 
-  h3 {
+  h2 {
     /* font-size: clamp(1em, 5vw, 1.3em); */
     font-size: 1.3em;
     padding-bottom: 0;
@@ -92,7 +92,7 @@
 
 <main>
   <header>
-    <h3>a browser extension that:</h3>
+    <h2>a browser extension that</h2>
     <span>Removes ads, banners, popups, and overlays from sites and...</span>
   </header>
 
