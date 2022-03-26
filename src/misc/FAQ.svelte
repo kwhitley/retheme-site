@@ -2,7 +2,7 @@
   import QA from './QA.svelte'
 </script>
 
-## Frequently Asked Questions
+<h2>Frequently Asked Questions</h2>
 
 <QA>How do I use it?</QA>
 <QA type="answer">Install the extension!  That's it (for most users).</QA>
@@ -37,11 +37,11 @@ Retheme applies very custom themes to <em>specific</em> sites (namely high-traff
 <QA>How does this make you money?</QA>
 <QA type="answer">It doesn't!</QA>
 
+<QA>Will you get in trouble for making this?</QA>
+<QA type="answer">...</QA>
+
 <QA>I love this!  How can I help?</QA>
 <QA type="answer">Help me spread the word by sharing it with friends and on social media!  Eventually, I may accept donations if there's enough interest in supporting this.  I'll even name <strike>my</strike> <em>someone else's</em> child after you as thanks!</QA>
 
 <QA>Will the name stick?</QA>
 <QA type="answer">Nah. I doubt it will have any legal binding, plus the parents would keep calling them their old name, so...</QA>
-
-<QA>Will you get in trouble for making this?</QA>
-<QA type="answer">...</QA>

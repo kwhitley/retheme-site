@@ -1,8 +1,8 @@
 <script>
   import QA from '../misc/QA.svelte'
-  import Bullets from '../misc/Bullets.md'
+  import Bullets from '../misc/Bullets.svelte'
   import Card from '../misc/Card.svelte'
-  import FAQ from '../misc/FAQ.md'
+  import FAQ from '../misc/FAQ.svelte'
 </script>
 
 <style lang="scss">

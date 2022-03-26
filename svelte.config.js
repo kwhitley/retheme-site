@@ -1,16 +1,12 @@
 import adapter from '@sveltejs/adapter-auto'
 import sveltePreprocess from 'svelte-preprocess'
-import { mdsvex } from 'mdsvex'
 import path from 'path'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  extensions: ['.svelte', '.md'],
+  extensions: ['.svelte'],
   preprocess: [
 		sveltePreprocess(),
-    mdsvex({
-      extensions: ['.md']
-    }),
 	],
 	kit: {
 		adapter: adapter(),
