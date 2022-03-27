@@ -4,11 +4,11 @@
   --accent-color: #f0c;
   --swap: #222;
 
-  @media (prefers-color-scheme: dark) {
-    --swap: var(--foreground-color);
-    --foreground-color: var(--background-color);
-    --background-color: var(--swap);
-  }
+  // @media (prefers-color-scheme: dark) {
+  //   --swap: var(--foreground-color);
+  //   --foreground-color: var(--background-color);
+  //   --background-color: var(--swap);
+  // }
 }
 
 html, body, div, span, applet, object, iframe,
