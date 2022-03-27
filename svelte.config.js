@@ -10,6 +10,9 @@ const config = {
 	],
 	kit: {
 		adapter: adapter(),
+    browser: {
+      hydrate: false,
+    },
     vite: {
       resolve: {
         alias: {

@@ -58,13 +58,6 @@
         right: 100%;
         font-size: 0.75em;
       }
-
-
-      > span {
-        font-size: 1.2em;
-        font-weight: lighter;
-        margin-right: 0.5rem;
-      }
     }
   }
 
