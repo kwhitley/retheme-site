@@ -10,12 +10,19 @@
     box-shadow: 1em 1em 1em rgba(0,0,0,0.5);
   }
 
+  main {
+    padding-top: 110%;
+    position: relative;
+  }
+
   section {
     margin-left: 1em;
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 6em;
     padding-left: 3vw;
+    position: absolute;
+    top: 0;
 
     div {
       flex: 1;
@@ -47,14 +54,16 @@
   }
 </style>
 
-<section>
-  <div class="before">
-    <header>before</header>
-    <img src={before} alt="Before Retheme" />
-  </div>
+<main>
+  <section>
+    <div class="before">
+      <header>before</header>
+      <img src={before} alt="Before Retheme" width="500" height="852" />
+    </div>
 
-  <div class="after">
-    <header>after</header>
-    <img src={after} alt="After Retheme" />
-  </div>
-</section>
+    <div class="after">
+      <header>after</header>
+      <img src={after} alt="After Retheme" width="500" height="852" />
+    </div>
+  </section>
+</main>
