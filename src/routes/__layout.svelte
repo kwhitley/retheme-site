@@ -3,7 +3,6 @@
   import Header from '~/misc/Header.svelte'
   import SocialLinks from '~/misc/SocialLinks.svelte'
   import Transition from '~/misc/Transition.svelte'
-  import '../app.scss'
 
   $: key = $page.url.pathname
   $: console.log({ key })

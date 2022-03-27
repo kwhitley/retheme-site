@@ -3,6 +3,7 @@
   import Card from '../misc/Card.svelte'
   import Comparison from '../misc/Comparison.svelte'
   import FAQ from '../misc/FAQ.svelte'
+  import '../app.scss'
 </script>
 
 <main class="page">

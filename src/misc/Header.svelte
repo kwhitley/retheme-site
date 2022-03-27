@@ -1,6 +1,6 @@
 <style lang="scss">
   header {
-    margin-bottom: 1.2em;
+    margin-bottom: 2.5rem;
   }
 
   small {
