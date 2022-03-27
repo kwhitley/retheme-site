@@ -39,6 +39,7 @@
     display: inline-block;
     line-height: 1.3em;
     font-weight: lighter;
+    text-align: left;
   }
 
   span:first-child {

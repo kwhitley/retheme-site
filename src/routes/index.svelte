@@ -5,18 +5,7 @@
   import FAQ from '../misc/FAQ.svelte'
 </script>
 
-<style lang="scss">
-  main {
-    display: flex;
-    flex-flow: column;
-
-    > * {
-      margin-bottom: 3em;
-    }
-  }
-</style>
-
-<main>
+<main class="page">
   <section>
     <Card>
       <Bullets />
