@@ -17,11 +17,15 @@
     flex-flow: row wrap;
     padding-right: 0.5em;
 
-    &.answer:not(:last-child) {
-      border-bottom: 1px dotted #ccc;
+    &.answer {
       padding-bottom: 1em;
-      margin: 0.5em 0 1em;
+      margin: 0.5em 0 0;
       opacity: 0.8;
+
+      &:not(:last-child) {
+        border-bottom: 1px dotted #ccc;
+        margin-bottom: 1em;
+      }
     }
 
     &:not(.answer) span:nth-child(2) {
