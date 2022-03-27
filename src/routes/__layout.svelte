@@ -1,9 +1,8 @@
 <script>
+  import { page } from '$app/stores'
   import Header from '~/misc/Header.svelte'
   import SocialLinks from '~/misc/SocialLinks.svelte'
   import Transition from '~/misc/Transition.svelte'
-  import { page } from '$app/stores'
-  import { fade, fly } from 'svelte/transition'
   import '../app.scss'
 
   $: key = $page.url.pathname

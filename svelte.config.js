@@ -12,6 +12,7 @@ const config = {
 		adapter: adapter(),
     browser: {
       hydrate: false,
+      router: false,
     },
     vite: {
       resolve: {
