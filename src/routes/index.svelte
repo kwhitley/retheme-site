@@ -1,7 +1,7 @@
 <script>
-  import QA from '../misc/QA.svelte'
   import Bullets from '../misc/Bullets.svelte'
   import Card from '../misc/Card.svelte'
+  import Comparison from '../misc/Comparison.svelte'
   import FAQ from '../misc/FAQ.svelte'
 </script>
 
@@ -11,6 +11,8 @@
       <Bullets />
     </Card>
   </section>
+
+  <Comparison />
 
   <section>
     <FAQ />
