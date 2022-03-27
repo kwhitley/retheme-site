@@ -16,7 +16,6 @@
     flex-flow: row wrap;
     margin-bottom: 6em;
     padding-left: 3vw;
-    padding-top: 126.25%;
 
     div {
       flex: 1;
