@@ -4,6 +4,8 @@
   import Comparison from '../misc/Comparison.svelte'
   import FAQ from '../misc/FAQ.svelte'
   import '../app.scss'
+
+  // export let domains
 </script>
 
 <main class="page">
