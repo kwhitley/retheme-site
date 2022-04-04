@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
   font: inherit;
 }
 
-h1, h2, h3 {
+h1, h2, h3, header {
   font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: -0.02em;
   text-align: left;
@@ -95,7 +95,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: clamp(4.3rem, 7vw, 7rem);
+  font-size: clamp(3.3rem, 7vw, 7rem);
   margin-bottom: 0;
   padding-bottom: 0;
 }

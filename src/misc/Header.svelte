@@ -1,6 +1,15 @@
+<script>
+  import ChromeLink from '~/misc/ChromeLink.svelte'
+</script>
+
 <style lang="scss">
   header {
+    font-size: clamp(3.3rem, 7vw, 7rem);
     margin-bottom: 2.5rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
   }
 
   small {
@@ -10,11 +19,13 @@
     text-transform: uppercase;
     padding-top: 0.4em;
     border-top: 1px solid var(--foreground-color);
+    flex: 1 100%;
+    text-align: left;
   }
 </style>
 
 <header>
-  <h1>Retheme.org
-    <small>Your window to a better internet</small>
-  </h1>
+  <h1>Retheme</h1>
+  <ChromeLink />
+  <small>Your window to a better internet</small>
 </header>
