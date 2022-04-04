@@ -10,10 +10,10 @@ const config = {
 	],
 	kit: {
 		adapter: adapter(),
-    // browser: {
-    //   hydrate: false,
-    //   router: false,
-    // },
+    browser: {
+      hydrate: false,
+      router: false,
+    },
     vite: {
       resolve: {
         alias: {
