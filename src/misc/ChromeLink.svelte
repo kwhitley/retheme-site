@@ -11,11 +11,10 @@
     max-height: 1em;
     max-width: 1em;
     vertical-align: middle;
-  }
 
-  a:hover svg {
-    text-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.5);
-    transform: scale(1.1);
+    &:hover svg {
+      transform: scale(1.1);
+    }
   }
 </style>
 

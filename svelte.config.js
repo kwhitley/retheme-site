@@ -2,7 +2,6 @@ import adapter from '@sveltejs/adapter-auto'
 import sveltePreprocess from 'svelte-preprocess'
 import path from 'path'
 
-/** @type {import('@sveltejs/kit').Config} */
 const config = {
   extensions: ['.svelte'],
   preprocess: [
