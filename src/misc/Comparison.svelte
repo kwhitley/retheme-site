@@ -6,6 +6,7 @@
 <style type="scss">
   img {
     max-width: 100%;
+    height: auto;
     outline: 2px solid white;
     box-shadow: 1em 1em 1em rgba(0,0,0,0.5);
   }
@@ -50,11 +51,11 @@
 <section>
   <div class="before">
     <header>before</header>
-    <img src={before} alt="Before Retheme" width="500" />
+    <img src={before} alt="Before Retheme" width="500" height="852" />
   </div>
 
   <div class="after">
     <header>after</header>
-    <img src={after} alt="After Retheme" width="500" />
+    <img src={after} alt="After Retheme" width="500" height="852" />
   </div>
 </section>
