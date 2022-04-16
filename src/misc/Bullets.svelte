@@ -27,6 +27,7 @@
 
   header span {
     text-align: left;
+    font-size: 1.1em;
   }
 
   ul {
@@ -83,7 +84,7 @@
   }
 </style>
 
-<main>
+<main class="hide-for-users">
   <header>
     <h2>a browser extension that</h2>
     <span>Removes ads, banners, popups, and overlays from sites and...</span>

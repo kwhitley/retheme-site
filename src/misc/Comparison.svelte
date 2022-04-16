@@ -12,11 +12,16 @@
   }
 
   section {
-    margin-left: 1em;
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 6em;
-    padding-left: 3vw;
+    display: grid;
+    grid-template-areas: 'before-header after-header'
+                         'before-image after-image';
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: end;
+    column-gap: 2em;
 
     div {
       flex: 1;
@@ -29,18 +34,39 @@
     }
   }
 
-  .before {
-    flex: 2.5;
-    z-index: 0;
+  header {
+    line-height: 0.8em;
+    letter-spacing: -0.04em;
   }
 
-  .after {
-    flex: 3;
-    position: relative;
-    left: -6vw;
-    top: 2vw;
-    z-index: 1;
+  header.before {
+    grid-area: before-header;
   }
+
+  header.after {
+    grid-area: after-header;
+  }
+
+  img.before {
+    grid-area: before-image;
+  }
+
+  img.after {
+    grid-area: after-image;
+  }
+
+  // .before {
+  //   flex: 2.5;
+  //   z-index: 0;
+  // }
+
+  // .after {
+  //   flex: 3;
+  //   position: relative;
+  //   left: -6vw;
+  //   top: 2vw;
+  //   z-index: 1;
+  // }
 
   header {
     font-size: clamp(2rem, 4vw, 2.6rem);
@@ -48,14 +74,10 @@
   }
 </style>
 
-<section>
-  <div class="before">
-    <header>before</header>
-    <img src={before} alt="Before Retheme" width="500" height="852" />
-  </div>
+<section class="hide-for-users">
+  <header class="before">turns sites like this:</header>
+  <img class="before" src={before} alt="Before Retheme" width="500" height="852" />
 
-  <div class="after">
-    <header>after</header>
-    <img src={after} alt="After Retheme" width="500" height="852" />
-  </div>
+  <header class="after">into this!</header>
+  <img class="after" src={after} alt="After Retheme" width="500" height="852" />
 </section>

@@ -3,7 +3,7 @@
   import Card from '../misc/Card.svelte'
   import Comparison from '../misc/Comparison.svelte'
   import FAQ from '../misc/FAQ.svelte'
-  import '../app.scss'
+  import MessageToUsers from '../misc/MessageToUsers.svelte'
 
   // export let domains
 </script>
@@ -16,6 +16,8 @@
   </section>
 
   <Comparison />
+
+  <MessageToUsers />
 
   <section>
     <FAQ />

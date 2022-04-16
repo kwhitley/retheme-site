@@ -27,5 +27,5 @@
 <header>
   <h1>Retheme</h1>
   <ChromeLink />
-  <small>Your window to a better internet</small>
+  <small>= the internet without ads</small>
 </header>
