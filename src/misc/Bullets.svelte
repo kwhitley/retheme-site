@@ -84,7 +84,7 @@
   }
 </style>
 
-<main class="hide-for-users">
+<main>
   <header>
     <h2>a browser extension that</h2>
     <span>Removes ads, banners, popups, and overlays from sites and...</span>

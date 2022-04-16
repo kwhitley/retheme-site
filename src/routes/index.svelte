@@ -4,12 +4,15 @@
   import Comparison from '../misc/Comparison.svelte'
   import FAQ from '../misc/FAQ.svelte'
   import MessageToUsers from '../misc/MessageToUsers.svelte'
+  import Why from '../misc/Why.svelte'
 
   // export let domains
 </script>
 
 <main class="page">
-  <section>
+  <MessageToUsers />
+
+  <section class="hide-for-users">
     <Card>
       <Bullets />
     </Card>
@@ -17,7 +20,7 @@
 
   <Comparison />
 
-  <MessageToUsers />
+  <Why />
 
   <section>
     <FAQ />
