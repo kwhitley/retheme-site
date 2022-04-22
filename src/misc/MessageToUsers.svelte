@@ -19,5 +19,6 @@
 <style lang="scss">
   article {
     text-align: left;
+    flex-flow: column;
   }
 </style>
