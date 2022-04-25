@@ -6,7 +6,6 @@
   import '../app.scss'
 
   $: key = $page.url.pathname
-  $: console.log({ key })
 </script>
 
 <svelte:head>
@@ -28,3 +27,13 @@
 
   <SocialLinks />
 </main>
+
+<style lang="scss">
+  .layout {
+    padding: var(--padding) calc(var(--padding) / 3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 2 * var(--padding));
+  }
+</style>

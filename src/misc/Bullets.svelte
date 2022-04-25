@@ -87,7 +87,7 @@
 <main>
   <header>
     <h2>a browser extension that</h2>
-    <span>Removes ads, banners, popups, and overlays from sites and...</span>
+    <span>Removes ads, banners, popups, and overlays from popular sites and...</span>
   </header>
 
   <ul>

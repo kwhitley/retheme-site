@@ -69,15 +69,15 @@
   // }
 
   header {
-    font-size: clamp(2rem, 4vw, 2.6rem);
+    font-size: clamp(1.5rem, 4vw, 2.4rem);
     margin-bottom: 0.4em;
   }
 </style>
 
 <section class="hide-for-users">
-  <header class="before">turns sites like this:</header>
+  <header class="before">transforms ad-heavy sites:</header>
   <img class="before" src={before} alt="Before Retheme" width="500" height="852" />
 
-  <header class="after">into this!</header>
+  <header class="after">into clean, ad-free content:</header>
   <img class="after" src={after} alt="After Retheme" width="500" height="852" />
 </section>
