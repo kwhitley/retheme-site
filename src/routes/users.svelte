@@ -3,30 +3,56 @@
 
   const INTERVAL = 1000 * 60 * 5 // 5 minutes
 
-  let counter = '?'
-  $: digits = counter.toString().split('')
+  let daily = '???'
+  let weekly = '???'
 
-  const getUsers = () => fetch('https://api.retheme.org/v1/weekly-users')
+  $: digitsDaily = daily.toString().split('')
+  $: digitsWeekly = weekly.toString().split('')
+
+  const getUsers = () => fetch('https://api.retheme.org/v1/user-stats')
                           .then(r => r.json())
                           .then(res => {
-                            counter = res.users
+                            daily = res.users?.daily
+                            weekly = res.users?.weekly
                           })
 
   onInterval(getUsers, INTERVAL)
 </script>
 
-<section>
-  <h3>Active Users</h3>
-  <h1 class="counter">
-    {#each digits as digit}
-      <span class="digit">{digit}</span>
-    {/each}
-  </h1>
-</section>
+<main>
+  <section>
+    <h3>Weekly Users</h3>
+    <h1 class="counter">
+      {#each digitsWeekly as digit}
+        <span class="digit">{digit}</span>
+      {/each}
+    </h1>
+  </section>
+
+  <section>
+    <h3>Last 24hr</h3>
+    <h1 class="counter">
+      {#each digitsDaily as digit}
+        <span class="digit">{digit}</span>
+      {/each}
+    </h1>
+  </section>
+
+  <div></div>
+</main>
 
 <style lang="scss">
   .counter {
     font-size: 1em;
+  }
+
+  main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+    flex: 1;
+    gap: 3em;
   }
 
   section {
@@ -35,13 +61,17 @@
     flex-flow: column-reverse;
     align-items: center;
     font-size: clamp(4rem, 35vw, 15rem);
-    padding: 0.3em 0 0.7em;
-    line-height: 0.5em;
+    flex: 1;
+    // padding: 0.1em 0;
+  }
+
+  div {
+    flex: 0.5;
   }
 
   h1 {
     // letter-spacing: -0.05em;
-    line-height: 1em;
+    line-height: 0.9em;
   }
 
   h3 {
