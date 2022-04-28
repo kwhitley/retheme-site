@@ -64,12 +64,12 @@
     display: flex;
     flex-flow: column-reverse;
     align-items: center;
-    font-size: clamp(4rem, 30vw, 15rem);
+    font-size: clamp(11rem, 30vw, 15rem);
     flex: 1;
   }
 
   .ratio {
-    font-size: clamp(8rem, 20vw, 12rem);
+    font-size: clamp(9rem, 20vw, 12rem);
   }
 
   .bottom {
