@@ -5,21 +5,25 @@
 
   let daily = '???'
   let weekly = '???'
+  let ratio = '???'
 
-  $: digitsDaily = daily.toString().split('')
   $: digitsWeekly = weekly.toString().split('')
+  $: digitsRatio = ratio.toString().split('').concat(['%'])
 
   const getUsers = () => fetch('https://api.retheme.org/v1/user-stats')
                           .then(r => r.json())
                           .then(res => {
                             daily = res.users?.daily
                             weekly = res.users?.weekly
+                            ratio = Math.round(daily / weekly * 100)
                           })
 
   onInterval(getUsers, INTERVAL)
 </script>
 
 <main>
+  <div class="top"></div>
+
   <section>
     <h3>Weekly Users</h3>
     <h1 class="counter">
@@ -29,16 +33,16 @@
     </h1>
   </section>
 
-  <section>
-    <h3>Last 24hr</h3>
+  <section class="ratio">
+    <h3>Active Last 24hr</h3>
     <h1 class="counter">
-      {#each digitsDaily as digit}
+      {#each digitsRatio as digit}
         <span class="digit">{digit}</span>
       {/each}
     </h1>
   </section>
 
-  <div></div>
+  <div class="bottom"></div>
 </main>
 
 <style lang="scss">
@@ -52,7 +56,7 @@
     justify-content: center;
     height: 100%;
     flex: 1;
-    gap: 3em;
+    gap: 4em;
   }
 
   section {
@@ -60,13 +64,20 @@
     display: flex;
     flex-flow: column-reverse;
     align-items: center;
-    font-size: clamp(4rem, 35vw, 15rem);
+    font-size: clamp(4rem, 30vw, 15rem);
     flex: 1;
-    // padding: 0.1em 0;
   }
 
-  div {
-    flex: 0.5;
+  .ratio {
+    font-size: clamp(8rem, 20vw, 12rem);
+  }
+
+  .bottom {
+    flex: 1;
+  }
+
+  .top {
+    flex: 0.1;
   }
 
   h1 {
